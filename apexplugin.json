@@ -1,0 +1,36 @@
+{
+  "name" : "Application Under Maintenance",
+  "version" : "1.0",
+  "description" : "Maintenance Mode allow you temporarily disable access to an APEX application in order to perform maintenance tasks such as fixing bugs or introducing new features.",
+  "keywords" : ["Maintenance", "Mode", "disable", "access"],
+  "homepage" : "https://github.com/codixai/oracle-apex-under-maintenance-mode",
+  "bugs" : {
+    "url" : "https://github.com/codixai/oracle-apex-under-maintenance-mode/issues",
+    "email" : "info@codix.ai"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Abdallah Azmi",
+    "email" : "info@codix.ai",
+    "url" : "https://codix.ai/",
+    "twitter" : "Codixai",
+    "donationUrl" : "https://www.paypal.com/paypalme/bnazm/5"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/codixai/oracle-apex-under-maintenance-mode.git"
+  },
+  "oracle" : {
+    "versions" : ["18.0.0", "19.0.0", "23.0.0"],
+    "apex" : {
+      "versions" : ["21.02", "22.01", "22.02", "23.01"],
+      "plugin" : {
+        "internalName" : "AI.CODIX.MAINTENANCE",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/r/codix/under-maintenance/login",
+        "previewImage" : "https://github.com/codixai/oracle-apex-under-maintenance-mode/assets/142397845/9c880049-e905-46b5-998f-dba8e3dacc6d"
+      }
+    }
+  }
+}
