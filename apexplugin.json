@@ -29,7 +29,7 @@
         "internalName" : "AI.CODIX.MAINTENANCE",
         "type" : "dynamic action",
         "demo" : "https://apex.oracle.com/pls/apex/r/codix/under-maintenance/login",
-        "previewImage" : "https://github.com/codixai/oracle-apex-under-maintenance-mode/assets/142397845/9c880049-e905-46b5-998f-dba8e3dacc6d"
+        "previewImage" : "https://raw.githubusercontent.com/codixai/oracle-apex-under-maintenance-mode/main/under-maintance.gif"
       }
     }
   }
